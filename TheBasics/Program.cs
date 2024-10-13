@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-int numOne = GetInput("Enter the first number: ");
-int numTwo = GetInput("Enter the second number: ");
+double numOne = GetInput("Enter the first number: ");
+double numTwo = GetInput("Enter the second number: ");
 
 Console.WriteLine($"{numOne} + {numTwo} = {AddNumbers(numOne, numTwo)}");
 
@@ -10,7 +10,7 @@ Console.WriteLine("\nPress any key to exit...");
 Console.ReadKey();
 
 
-int GetInput(string msg)
+double GetInput(string msg)
 {
     while (true) 
     {
@@ -19,7 +19,7 @@ int GetInput(string msg)
 
         if (CheckInteger(inputValue))
         {
-            return int.Parse(inputValue);
+            return double.Parse(inputValue);
         }
 
         Console.WriteLine("Invalid number. Please try again.");
@@ -28,8 +28,7 @@ int GetInput(string msg)
 
 bool CheckInteger(string value)
 {
-    int result;
-    if (int.TryParse(value, out result))
+    if (double.TryParse(value, out _))
     {
         return true;
     }
@@ -37,7 +36,7 @@ bool CheckInteger(string value)
     return false;
 }
 
-int AddNumbers(int a, int b)
+double AddNumbers(double a, double b)
 {
     return a + b;
 }
