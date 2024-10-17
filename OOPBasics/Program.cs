@@ -11,11 +11,14 @@
             Customer earl = new Customer("Earl");
             Customer frank = new Customer("Frank", "Mainstreet 1", "5551234567");
 
-            Console.WriteLine($"{earl.Name} | {earl.Address} | {earl.ContactNumber}");
+            earl.GetDetails();
 
-            earl.UpdateDetails(earl.Name, "Newstreet 2", "5821234567");
-            Console.WriteLine($"{earl.Name} | {earl.Address} | {earl.ContactNumber}");
-            Console.WriteLine($"Earl ID: {earl.Id} | Frank ID: {frank.Id}");
+            earl.UpdateDetails("Early", "Newstreet 2", "5821234567");
+
+            earl.GetDetails();
+            frank.GetDetails();
+            Console.WriteLine($"Customer count: {Customer.Count()}");
+
             Console.ReadKey();
         }
     }
