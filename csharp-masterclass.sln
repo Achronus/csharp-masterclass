@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCalculator", "SimpleC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheBasics", "TheBasics\TheBasics.csproj", "{44B5D403-F759-43B4-ABB7-BF9F1B597150}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizApp", "QuizApp\QuizApp.csproj", "{51029395-AEE1-4FA7-98DF-36AEFEBFF88E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{44B5D403-F759-43B4-ABB7-BF9F1B597150}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44B5D403-F759-43B4-ABB7-BF9F1B597150}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44B5D403-F759-43B4-ABB7-BF9F1B597150}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51029395-AEE1-4FA7-98DF-36AEFEBFF88E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51029395-AEE1-4FA7-98DF-36AEFEBFF88E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51029395-AEE1-4FA7-98DF-36AEFEBFF88E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51029395-AEE1-4FA7-98DF-36AEFEBFF88E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
