@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace OOPBasics
+﻿namespace OOPBasics
 {
     internal class Customer
     {
