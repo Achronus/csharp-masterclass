@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCalculator", "SimpleC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheBasics", "TheBasics\TheBasics.csproj", "{44B5D403-F759-43B4-ABB7-BF9F1B597150}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizApp", "QuizApp\QuizApp.csproj", "{51029395-AEE1-4FA7-98DF-36AEFEBFF88E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuizApp", "QuizApp\QuizApp.csproj", "{51029395-AEE1-4FA7-98DF-36AEFEBFF88E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{FA44304B-64A2-4858-8EE1-ED191E114E72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,14 @@ Global
 		{51029395-AEE1-4FA7-98DF-36AEFEBFF88E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51029395-AEE1-4FA7-98DF-36AEFEBFF88E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51029395-AEE1-4FA7-98DF-36AEFEBFF88E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F7AE2AB-6068-4EBA-BB92-A248F676009C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F7AE2AB-6068-4EBA-BB92-A248F676009C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F7AE2AB-6068-4EBA-BB92-A248F676009C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F7AE2AB-6068-4EBA-BB92-A248F676009C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA44304B-64A2-4858-8EE1-ED191E114E72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA44304B-64A2-4858-8EE1-ED191E114E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA44304B-64A2-4858-8EE1-ED191E114E72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA44304B-64A2-4858-8EE1-ED191E114E72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
