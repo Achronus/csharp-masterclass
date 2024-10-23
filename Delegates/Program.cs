@@ -25,6 +25,15 @@ namespace Delegates
 
             monitor.Temperature = 20;  // No event
             monitor.Temperature = 35;  // Runs event
+
+            StockPrice stockPrice = new StockPrice(120);
+            StockAlert stockAlert = new StockAlert();
+
+            stockPrice.OnStockPriceChange += stockAlert.OnStockPriceChange;
+
+            stockPrice.Price = 100;
+            stockPrice.Price = 110;
+            stockPrice.Price = 130;
         }
 
         static void ShowMessage(string msg)
